@@ -48,7 +48,7 @@ const personaMovieDB = {
     },
     writeYourGenres: function () {
         for (let i = 1; i < 2; i++) {
-            
+
             let genres = prompt(`жанры через ","`).toLocaleLowerCase;
             if (genres == '' || genres == null) {
                 console.log('Неверно');
